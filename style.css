@@ -17,8 +17,8 @@ body {
    um die meisten Elemente gut zu platzieren.
 */
 .text-and-img {
-    display: flex; /* Richtet die Elemnte in einer Zeile oder Reihe aus. */
-    flex-direction: row; /* In einer Reihe ausgerichtet. */
+    display: grid; /* Richtet die Elemnte in einer Zeile oder Reihe aus. */
+    grid-template-columns: 70% auto; /* In einer Reihe ausgerichtet. */
     gap: 1rem; /* Abstand zwischen den Elementen.*/
     align-items: center; /* Ausrichtung in der Mitte entlang der anderen Achse. */
     justify-content: center; /* Ausrichtung in der Mitte entlang der Hauptachse */
@@ -28,5 +28,17 @@ body {
 /* Diese Regel beschreibt wie Bilder in diesem Container dargestellt werden. */
 .text-and-img img {
     border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
-    width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
+    width: 80%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
+}
+
+body {
+    background-color: rgb(206, 239, 229);
+}
+
+h1 {
+    background-color: rgb(133, 184, 184);
+}
+
+h2 {
+    background-color: rgb(133, 184, 184);
 }
